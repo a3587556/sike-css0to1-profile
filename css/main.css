@@ -182,10 +182,6 @@ html {
   text-align: center;
 }
 
-.photos__list {
-  font-size: 0;
-}
-
 .photos__list ul {
   list-style: none;
   padding: 0;
@@ -198,6 +194,6 @@ html {
 }
 
 .photos ul li {
-  display: inline-block;
+  float: left;
   width: 25%;
 }
