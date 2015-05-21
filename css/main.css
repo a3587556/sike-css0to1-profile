@@ -178,6 +178,10 @@ html {
   box-sizing: inherit;
 }
 
+.photos {
+  overflow: hidden;
+}
+
 .photos h2 {
   text-align: center;
 }
@@ -196,4 +200,77 @@ html {
 .photos ul li {
   float: left;
   width: 25%;
+}
+
+.get-in-touch {
+  text-align: center;
+  overflow: hidden;
+}
+
+.get-in-touch ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.get-in-touch ul li {
+  float: left;
+  width: 25%;
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  margin: 10px auto;
+}
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+
+.contact header h2 {
+  text-align: center;
+}
+
+.contact form {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contact button {
+  width: 100%;
+  margin-top: 15px;
+  
+
+}
+
+.contact .name {
+  position: absolute;
+  left: -15%;
+  top: 7%;
+}
+
+.contact .email {
+  position: absolute;
+  left: -15%;
+  top: 32%;
+}
+
+.contact .message {
+  position: absolute;
+  left: -22%;
+  top: 62%;
 }
