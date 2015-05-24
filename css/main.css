@@ -178,7 +178,7 @@ html {
   box-sizing: inherit;
 }
 
-.photos {
+/*.photos {
   overflow: hidden;
 }
 
@@ -200,6 +200,19 @@ html {
 .photos ul li {
   float: left;
   width: 25%;
+}*/
+
+.photos ul{
+  overflow:hidden;
+}
+.photos li{
+  float:left;
+  width:25%;
+  padding:10px;
+  box-sizing:border-box;
+}
+.photos li img{
+  width:100%;
 }
 
 .get-in-touch {
@@ -258,21 +271,22 @@ html {
 }
 
 .contact .name {
-  position: absolute;
   left: -15%;
   top: 7%;
 }
 
 .contact .email {
-  position: absolute;
   left: -15%;
   top: 32%;
 }
 
 .contact .message {
-  position: absolute;
   left: -22%;
   top: 62%;
+}
+
+.contact label {
+  position: absolute;
 }
 
 @media (max-width : 480px) {
@@ -305,7 +319,7 @@ html {
   
   
   .education-experience ul li {
-        display: inline-block;
+    display: inline-block;
 
   }
   
@@ -320,10 +334,38 @@ html {
     text-align: left;
     padding-left: 0;
  }
-  
 
+ .education-experience span {
+    display: block;
+ }
   
+ .info-section h2:after {
+  margin: 15 auto;
+  content: "";
+  border-bottom: 3px solid black;
+  display: block;
+  width: 25%;
+}
 
-  
+.photos img {
+  width: 100%;
+}
+
+.get-in-touch ul li{
+  width:50%;
+}
+.get-in-touch li img{
+  width:80%;
+}
+
+.contact form{
+  width:100%;
+}
+.contact label {
+  position:static;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
 
 }
