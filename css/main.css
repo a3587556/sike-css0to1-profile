@@ -178,7 +178,7 @@ html {
   box-sizing: inherit;
 }
 
-/*.photos {
+.photos {
   overflow: hidden;
 }
 
@@ -200,19 +200,6 @@ html {
 .photos ul li {
   float: left;
   width: 25%;
-}*/
-
-.photos ul{
-  overflow:hidden;
-}
-.photos li{
-  float:left;
-  width:25%;
-  padding:10px;
-  box-sizing:border-box;
-}
-.photos li img{
-  width:100%;
 }
 
 .get-in-touch {
